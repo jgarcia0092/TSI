@@ -1,0 +1,20 @@
+@import '../../../sass/variables';
+
+.subscribe-email {
+    width: 500px;
+    border: 2px solid $orange;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.subscribe-submit {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 550px) {
+    .subscribe-email {
+        width: 100%;
+    }
+}

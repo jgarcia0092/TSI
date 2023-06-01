@@ -1,0 +1,12 @@
+@import '../../../sass/variables';
+
+.footer-link {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    padding-top: 10px;
+}
+
+.shadow-right {
+    border-right: 1px solid $dark-gray;
+}

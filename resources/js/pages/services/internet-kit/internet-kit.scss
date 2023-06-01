@@ -1,0 +1,48 @@
+@import '../../../../sass/variables';
+
+.vfc-main-container {
+    background-color: #F2F2F2 !important;
+    width: 318px;
+    font-size: 12px;
+}
+
+.vfc-marked:before,
+.vfc-base-start,
+.vfc-base-end {
+    background-color: #DE7519 !important;
+}
+
+.vfc-start-marked:before,
+.vfc-end-marked:before {
+    background-color: transparent !important;
+}
+
+.vfc-start-marked,
+.vfc-end-marked {
+    background-color: #E67E22 !important;
+}
+
+.vfc-today {
+    background-color: darkgray !important;
+}
+
+.calc-container {
+    width: 318px;
+    text-align: right;
+}
+
+.add-to-cart {
+    color: #6A6A6A !important;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: underline !important;
+}
+
+.checkout {
+    color: white !important;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: $green;
+    padding: 5px 10px;
+}
